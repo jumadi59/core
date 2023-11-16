@@ -38,14 +38,14 @@ android {
 
     flavorDimensions 'buildTerget'
     productFlavors {
-        dev {
+        /*dev {
             dimension 'buildTerget'
             externalNativeBuild.ndkBuild.arguments "BUILD_TARGET=dev"
         }
         prod {
             dimension 'buildTerget'
             externalNativeBuild.ndkBuild.arguments "BUILD_TARGET=prod"
-        }
+        }*/
     }
 }
 
